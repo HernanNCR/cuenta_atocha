@@ -1,0 +1,32 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to top, #d4d4d4 60%, #41558d 40%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 0px;
+
+}
+
+nav{
+    margin: 0px 90px 0px 90px;
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+h3{
+    color: white;
+}
+.movimientos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.agregar{
+    margin: 20px;
+    width: 80%;
+    height: auto;
+}

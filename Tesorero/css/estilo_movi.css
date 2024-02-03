@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to top, #d4d4d4 60%, #41558d 40%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 0px;
+
+}
+
+nav{
+    margin: 0px 70px 0px 70px;
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+.cuenta{
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: #f1f0f0;
+    margin: 9px 70px 0px 70px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuenta p{
+    font-size: 100px;
+}
+
+.vista{
+    display: flex;
+}
+.tabla_depositos{
+    margin: 30px;
+    width: 50%;
+    overflow: hidden;
+    height: 400px;
+    overflow-y: scroll;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.tabla_retiros{
+    margin: 30px;
+    width: 50%;
+    overflow: hidden;
+    height: 400px;
+    overflow-y: scroll;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+thead tr td,
+tbody tr td{
+    border: 1px solid black;
+}
+
+.article{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f1f0f0;
+    margin: 2px;
+}
+.titulo_y_actividad{
+    width: 300px;
+    height: 100%;
+}
+.cantidad_y_fecha{
+    width: 200px;
+    height: 100%;
+    display: flex;
+}
+.titulo,
+.actividad{
+    height: 25px;
+}
+.titulo p,
+.actividad p{
+    margin-left: 10px;
+}
+.cantidad{
+    height: 50px;
+    width: 75px;
+}
+.fecha{
+    height: 50px;
+    width: 125px;
+}
+.cantidad p,
+.fecha p{
+    margin: 10px;
+}
+
+@media screen and (max-width:900px){
+    .cuenta p{
+        font-size: 60px;
+    }
+    .article{
+        width: 200px;
+        font-size: 12px;
+    }
+    .titulo_y_actividad{
+        width: 100px;
+
+    }
+    .cantidad_y_fecha{
+        width: 100px;
+ 
+    }
+}
+@media screen and (max-width:600px){
+    .cuenta p{
+        font-size: 60px;
+    }
+    .vista{
+        display: block;
+    }
+    .tabla_depositos{
+        margin: 20px 50px 10px 50px;
+        width: auto;
+    }
+    
+    .tabla_retiros{
+        margin: 20px 50px 10px 50px;
+        width: auto;
+    }
+    .article{
+        width: 200px;
+        font-size: 10px;
+    }
+    .titulo_y_actividad{
+        width: 100px;
+
+    }
+    .cantidad_y_fecha{
+        width: 100px;
+ 
+    }
+}
